@@ -7,7 +7,7 @@ Web interface for Kraken Elite
 
 
 ## Quickstart
-Paste the following url in NZXT CAM: [https://greenestgreen.github.io/NZXT-nier-hud/](https://greenestgreen.github.io/NZXT-nier-hud/)
+Paste the following url in NZXT CAM: [https://greenestgreen.github.io/NZXT-NieR-Automata-Hud-Web-Integration/](https://greenestgreen.github.io/NZXT-NieR-Automata-Hud-Web-Integration/)
 
 
 
