@@ -24,4 +24,5 @@ Use the url [http://127.0.0.1:2553/](http://127.0.0.1:2553/) in NZXT CAM.
 
 ## Disclaimer
 I was based on this [this](https://codepen.io/levise/pen/vMzEwr) credits to [Lev](https://codepen.io/levise)
+
 I don't plan to maintain it, also is not very responsive. I'm not a web dev ~~anymore~~
