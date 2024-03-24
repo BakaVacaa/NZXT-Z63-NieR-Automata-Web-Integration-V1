@@ -21,13 +21,13 @@
 
       <div class="content">
         <div class="center">
-          <img src="./public/img/cpu.png" width="50px"><span class="info-text">CPU: 50%   GPU: 50%</span>
+          <img src="./public/img/cpu.png" width="50px"><span id="cpu-gpu" class="info-text">CPU:[50%]   GPU:[50%]</span>
         </div>
 
         <div class="center">
-          <img src="./public/img/ram.png" width="40px"><span class="info-text">Storage Used:</span>
+          <img src="./public/img/ram.png" width="40px" style="margin-right: 10px;"><span class="info-text">Storage Used:</span>
         </div>
-        <span  class="info-text">15000 / 32000 MB</span>
+        <span  style="margin-left: 50px;" id="ram" class="info-text">[15000 / 32000 MB]</span>
       </div>
       
       <div class="content">
@@ -41,4 +41,5 @@
       <div class="pattern-inner"></div>
     </div>
   </div>
+  <script type="module" src="./public/js/main.js"></script>
   </html>
