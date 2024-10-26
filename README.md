@@ -5,7 +5,7 @@ Web interface for Kraken Z63
 ![Interface preview](./public/demo.png)
 
 ## Quickstart
-Paste the following url in NZXT CAM: [NZXT-NieR-V1.BakaVaca.com](NZXT-NieR-V1.BakaVaca.com)
+Paste the following url in NZXT CAM: [NZXT-NieR-V1.BakaVaca.com](NZXT-NieR-V1.bakavaca.com)
 
 ## Note
 This is version 1. I plan to create more versions, but please note that earlier versions will not be maintained. I will only keep up with the versions I actively use.
