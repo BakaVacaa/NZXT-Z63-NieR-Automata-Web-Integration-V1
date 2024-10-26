@@ -26,4 +26,4 @@ Use the url [http://127.0.0.1:2553/](http://127.0.0.1:2553/) in NZXT CAM.
 
 
 ## Credits
-Credits to [Roberto (Greenstgreen)](https://github.com/Greenestgreen) being the original creator who based it on [this](https://codepen.io/levise/pen/vMzEwr) and he gives credits to [Lev](https://codepen.io/levise)
+Shoutout to [Roberto (Greenstgreen)](https://github.com/Greenestgreen) for the original creation, inspired by [this](https://codepen.io/levise/pen/vMzEwr) awesome project! Finally a special thanks to [Lev](https://codepen.io/levise) for the foundational work.
