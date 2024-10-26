@@ -4,42 +4,39 @@
         <link rel="stylesheet/less" type="text/css" href="./public/css/nier.css" />
         <script src="https://cdn.jsdelivr.net/npm/less" ></script>
     </head>
-<body style="width: 640px; height: 640px;">    
+    <body style="width: auto; height: auto;">    
     <div class="container">
       <h2>
-        <span>人類に栄光あれ</span>
+        <span class="japanese-text">人類に栄光あれ</span>
       </h2>
     </div>
+
+<main>
+    <div class="container">
+        <div class="content">
+            <button type="button">
+                <img src="./public/img/icon.jpg" width="30px" alt="System Status Icon"> System Status
+            </button>
+        </div>
+
+        <div class="content">
+            <div class="center">
+                <img src="./public/img/cpu.png" width="50px" alt="CPU Icon">
+                <span id="cpu-gpu" class="info-text">CPU:[50%] GPU:[50%]</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container no-bar">
+        <div class="content no-bar">
+            <img src="./public/img/YoRHa.png" class="yorha" alt="YoRHa Image">
+        </div>
+        <div class="content no-bar image-2b">
+            <img src="./public/img/2b.png" class="image-2b" alt="2B Image">
+        </div>
+    </div>
+</main>
+
+<script type="module" src="./public/js/main.js"></script>
 </body>
-  
-  <main >
-    <div class="container">
-
-      <div class="content">
-        <button type="button"> <img src="./public/img/icon.jpg" width="30px"> System Status</button>
-      </div>
-
-      <div class="content">
-        <div class="center">
-          <img src="./public/img/cpu.png" width="50px"><span id="cpu-gpu" class="info-text">CPU:[50%]   GPU:[50%]</span>
-        </div>
-
-        <div class="center">
-          <img src="./public/img/ram.png" width="40px" style="margin-right: 10px;"><span class="info-text">Storage Used:</span>
-        </div>
-        <span  style="margin-left: 50px;" id="ram" class="info-text">[15000 / 32000 MB]</span>
-      </div>
-      
-      <div class="content">
-        <img src="./public/img/2b.jpg" width="390px">
-      </div>
-    </div>
-  </main>
-  
-  <div class="pattern">
-    <div class="container">
-      <div class="pattern-inner"></div>
-    </div>
-  </div>
-  <script type="module" src="./public/js/main.js"></script>
-  </html>
+</html>
