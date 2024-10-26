@@ -1,13 +1,18 @@
 # NZXT Z63 Nier Automata Web Integration V1 forked by BakaVaca
 
 Web interface for Kraken Z63
+
 ![Interface preview](./public/demo.png)
 
 ## Quickstart
-Paste the following url in NZXT CAM: [https://greenestgreen.github.io/NZXT-NieR-Automata-Hud-Web-Integration/](https://greenestgreen.github.io/NZXT-NieR-Automata-Hud-Web-Integration/)
+Paste the following url in NZXT CAM: [NZXT-NieR-V1.BakaVaca.com](NZXT-NieR-V1.BakaVaca.com)
 
 ## Note
-This was specifically made for the Z63 which has a different resolution to the Elite. If you wish to edit it, follow the steps bellow. However I am sorry to say I manually changed the pixel counts because when I was trying to automate/dynamically adjust it, it kept leaving the bounds of the circle and I am not versed well enough in CSS to fix it sorry guys.
+This is version 1. I plan to create more versions, but please note that earlier versions will not be maintained. I will only keep up with the versions I actively use.
+
+Future plans for upcoming versions include: removing the Japanese text and replacing it with the YoRHa logo, and adding an additional 'chip' for monitoring System and GPU Memory Usage, as these metrics are becoming more critical for me and others to track
+
+This version is specifically tailored for the Z63, which has a different resolution compared to the Elite. If you need to make edits, follow the steps below. However, please note that I manually adjusted the pixel counts, as my attempts to automate and dynamically adjust them resulted in the content exceeding the circle's boundaries. My CSS skills were not sufficient to resolve this issue. Apologies for any inconvenience.
 
 ## Installation
 1 - Install Node.js  
@@ -20,7 +25,5 @@ Now you can manually start the interface with the command `node index.js`
 Use the url [http://127.0.0.1:2553/](http://127.0.0.1:2553/) in NZXT CAM.
 
 
-## Disclaimer
+## Credits
 Credits to [Roberto (Greenstgreen)](https://github.com/Greenestgreen) being the original creator who based it on [this](https://codepen.io/levise/pen/vMzEwr) and he gives credits to [Lev](https://codepen.io/levise)
-
-This is version 1. I will make more versions and as I make more the past ones will not be maintained as I will only really maintain the ones I use, sorry...
